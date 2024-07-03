@@ -1,0 +1,21 @@
+server:
+  port: 9095
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3307/uniclub
+    username: root
+    password: admin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  private-key: S3AcpNJBjDe3wlIidpkSg5DaYdmrT7IT/1VRYXYVlvc=
+path:
+  save-file: /Users/admin/Desktop/upload
+redis:
+  host: localhost
+  port: 6379
+
+
